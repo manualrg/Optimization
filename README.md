@@ -1,4 +1,4 @@
-# Optimization algorithms and techologies repository
+# Optimization algorithms and technologies
 manualrg
 
 ## Getting Started
@@ -40,19 +40,20 @@ In general, .py examples just run and solver the problem, whereas notebooks expl
 
 
 ## Prerequisites
-Common Python packages are used:
-
+Python version:
 * Python 3.7
+Common Python packages are used:
 * Numpy 1.16
 * Scipy 1.3
 * Pandas 0.25
 * Matplotlib 3.1
 * Networkx 2.3
 
+Running this repo in older versions may yield problems with Networkx that was heavily rebuilt from 1.1 to 2.x. Moreover, f-string notation is used.
 
 ## Installing
 One of the main aims of this project is to test several Optimization technologies, such us ORTools and Gurobi.
-* ortools (Open)
+* OR-Tools (Open): https://developers.google.com/optimization/
 ```
 pip install --upgrade --user ortools```https://developers.google.com/optimization/install/
 ```

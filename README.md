@@ -1,5 +1,4 @@
 # Optimization algorithms and techologies repository
-------
 manualrg
 
 ## Getting Started
